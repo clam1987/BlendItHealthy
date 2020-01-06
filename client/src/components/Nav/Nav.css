@@ -1,0 +1,9 @@
+.nav-item {
+    margin-right: 45px;
+}
+.navbar-nav a:hover {
+    border-bottom: 11px solid #2e7d39;
+}
+.img-fluid {
+    width: 40%;
+}
