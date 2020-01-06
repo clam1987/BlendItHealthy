@@ -1,2 +1,2 @@
-# BlendItHealthy
-Website Design for BlendItHealthy using react as the Framework.
+# BIH
+Website Design for BIH using react as the Framework.
