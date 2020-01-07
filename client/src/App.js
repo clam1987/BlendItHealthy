@@ -1,13 +1,20 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Navbar from "./components/Nav/Nav"
-import Footer from "./components/Footer/Footer"
+import Navbar from "./components/Nav/Nav";
+import Footer from "./components/Footer/Footer";
+import Banner from "./components/Banner/Banner";
+import homeBanner from "./assets/HomeBanner.json";
+
 
 function App() {
+  const Home = homeBanner.map(info => {
+   return <Banner key={info.id} message={info.message} image={require("./assets/images/" + info.image)} name={info.name} />
+  })
   return (
     <div className="App">
       <Navbar />
+      {Home}
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

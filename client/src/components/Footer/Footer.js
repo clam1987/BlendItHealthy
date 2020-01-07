@@ -27,7 +27,6 @@ let Footer = () => {
                 placeholder="Your email"
                 aria-label="Your email"
                 aria-describedby="basic-addon2"
-                value=""
               />
               <div className="input-group-append">
                 <button
