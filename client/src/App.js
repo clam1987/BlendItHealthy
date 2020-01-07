@@ -9,7 +9,7 @@ import homeBanner from "./assets/HomeBanner.json";
 
 function App() {
   const Home = homeBanner.map(info => {
-   return <Banner key={info.id} message={info.message} image={require("./assets/images/" + info.image)} name={info.name} />
+   return <Banner key={info.id} h1={info.h1} message={info.message} image={require("./assets/images/" + info.image)} name={info.name} />
   })
   return (
     <div className="App">

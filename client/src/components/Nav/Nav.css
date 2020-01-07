@@ -1,9 +1,15 @@
 .nav-item {
   margin-right: 45px;
 }
+
+.navbar-nav {
+  width: 100%;
+}
+
 .navbar-nav a:hover {
   border-bottom: 11px solid #2e7d39;
 }
+
 .img-fluid {
   width: 40%;
 }
@@ -16,3 +22,10 @@
   text-align: center;
   font-weight: 600;
 }
+
+/* #aboutMe { */
+  /* white-space: pre-line; */
+  /* display: inline-block !important; */
+/* } */
+
+

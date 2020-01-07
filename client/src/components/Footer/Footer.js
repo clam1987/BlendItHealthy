@@ -11,7 +11,7 @@ let Footer = () => {
             <h4 className="footerHeader">
               Don't miss out on Health Facts, Promotions, and Events from us!
             </h4>
-            <p>
+            <p className="t1">
               Get the latest information delivered to your inbox. Unsubscribe at
               anytime.
             </p>
@@ -30,7 +30,7 @@ let Footer = () => {
               />
               <div className="input-group-append">
                 <button
-                  className="btn btn-sm btn-outline-white my-0"
+                  className="btn btn-sm btn-outline-white my-0 subBtn"
                   type="button"
                 >
                   Subscribe

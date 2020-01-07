@@ -1,4 +1,5 @@
 import React from "react";
+import header from "../../assets/images/Navbar/Logo/BIH.png"
 import logo from "../../assets/images/placeholder.png";
 import "../Nav/Nav.css";
 
@@ -6,7 +7,7 @@ let Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <a className="navbar-brand" href="#">
-        <img className="img-fluid" src={logo} />
+        <img className="img-fluid" src={header} />
       </a>
       <button
         className="navbar-toggler"
@@ -22,13 +23,13 @@ let Navbar = () => {
 
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav mr-auto">
-          <li className="nav-item active">
+          <li className="nav-item">
             <a className="nav-link" href="#">
               MENU <span className="sr-only">(current)</span>
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="#" id="aboutMe">
               ABOUT US
             </a>
           </li>
