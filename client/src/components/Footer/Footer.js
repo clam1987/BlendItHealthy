@@ -42,7 +42,7 @@ let Footer = () => {
             <form className="input-group">
               <input
                 type="text"
-                className="form-control border-right-0 border-success shadow-none py-4 pr-4 mr-n3 bg-transparent footerInput"
+                className="form-control border-right-0 border-success shadow-none py-4 pr-4 mr-n5 bg-transparent footerInput"
                 placeholder="enter email address"
                 aria-label="Your email"
                 aria-describedby="basic-addon2"
