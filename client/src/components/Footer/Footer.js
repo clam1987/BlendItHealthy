@@ -1,7 +1,26 @@
-import React from "react";
+import React, {useState} from "react";
 import "../Footer/Footer.css";
 
 let Footer = () => {
+  const [email, setEmail] = useState("");
+  
+  let validateEamil = (email) => {
+    const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+    return re.test(email);
+  };
+
+  let handleChange = e => {
+    setEmail(e.target.value);
+  };
+
+  let handleSubmit = () => {
+    if (validateEamil(email)) {
+      return console.log("valid");
+    } else {
+      return console.log("not valid");
+    }
+
+  };
   return (
     <footer className="page-footer font-small pt-4">
       <div className="container-fluid text-center">
@@ -23,19 +42,22 @@ let Footer = () => {
             <form className="input-group">
               <input
                 type="text"
-                className="form-control rounded-pill py-4 pr-5 mr-1 bg-transparent"
-                placeholder="Your email"
+                className="form-control border-right-0 border-success shadow-none py-4 pr-4 mr-n3 bg-transparent footerInput"
+                placeholder="enter email address"
                 aria-label="Your email"
                 aria-describedby="basic-addon2"
+                value={email}
+                onChange={handleChange}
               />
-              <div className="input-group-append">
+              {/* <div className="input-group-append"> */}
                 <button
                   className="btn btn-sm btn-outline-white my-0 subBtn"
                   type="button"
+                  onClick={handleSubmit}
                 >
                   Subscribe
                 </button>
-              </div>
+              {/* </div> */}
             </form>
           </div>
         </div>

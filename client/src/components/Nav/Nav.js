@@ -1,6 +1,5 @@
 import React from "react";
 import header from "../../assets/images/Navbar/Logo/BIH.png"
-import logo from "../../assets/images/placeholder.png";
 import "../Nav/Nav.css";
 
 let Navbar = () => {

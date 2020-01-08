@@ -54,13 +54,16 @@ a:not([href]) {
     background-color: #2e7d39;
     border: none;
     color: white;
-    padding: 15px;
+    padding: 12px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    border-radius: 1.5rem;
+    border-radius: 2rem;
+    z-index: 99;
 }
 
-
+.footerInput {
+  border-radius: 2rem;
+}
