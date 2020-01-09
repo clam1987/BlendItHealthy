@@ -25,10 +25,9 @@ let Home = () => {
           <>
           {Home}
           <Wrapper>
-          {Gallery}
+          {Gallery} 
           </Wrapper>
           {BottomImage}
-          <Footer />
           </>
       )
 }

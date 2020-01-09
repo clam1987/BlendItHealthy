@@ -1,13 +1,10 @@
 import React from 'react';
 import './App.css';
 import Navbar from "./components/Nav/Nav";
-import Home from "./pages/Home/Home"
-import AboutUs from "./pages/AboutUs/AboutUs"
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
-
-
-
-
+import Footer from "./components/Footer/Footer";
+import Home from "./pages/Home/Home";
+import AboutUs from "./pages/AboutUs/AboutUs";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 
 function App() {
@@ -21,6 +18,7 @@ function App() {
           <Route exact path="/home" component={Home} />
           <Route exact path="/aboutus" component={AboutUs} />
         </Switch>
+        <Footer />
         </div>
       </div>
     </Router>
