@@ -5,7 +5,7 @@ import "../Nav/Nav.css";
 let Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light">
-      <a className="navbar-brand" href="#">
+      <a className="navbar-brand" href="/">
         <img className="img-fluid bannerImage" src={header} />
       </a>
       <button
@@ -28,7 +28,7 @@ let Navbar = () => {
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#" id="aboutMe">
+            <a className="nav-link" href="/aboutus" id="aboutMe">
               ABOUT US
             </a>
           </li>
