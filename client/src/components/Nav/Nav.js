@@ -4,7 +4,7 @@ import "../Nav/Nav.css";
 
 let Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light">
       <a className="navbar-brand" href="#">
         <img className="img-fluid bannerImage" src={header} />
       </a>

@@ -62,7 +62,7 @@ let Footer = () => {
         </div>
         <div className="row">
           <div className="col-md d-flex justify-content-center">
-            <p id="contact">Contact Us:</p>
+            <p id="contact">CONTACT US:</p>
           </div>
         </div>
         <div className="row d-flex justify-content-center">

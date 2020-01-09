@@ -30,6 +30,7 @@ function App() {
   })
   return (
     <div className="App">
+      <div className="container mainContainer">
       <Navbar />
       {Home}
       <Wrapper>
@@ -52,6 +53,7 @@ function App() {
         </a>
       </header> */}
       <Footer />
+      </div>
     </div>
   );
 }
