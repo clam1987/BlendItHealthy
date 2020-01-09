@@ -1,11 +1,11 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import "../Footer/Footer.css";
 
 let Footer = () => {
   const [email, setEmail] = useState("");
-  
-  let validateEamil = (email) => {
-    const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+
+  let validateEamil = email => {
+    const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(email);
   };
 
@@ -19,7 +19,6 @@ let Footer = () => {
     } else {
       return console.log("not valid");
     }
-
   };
   return (
     <footer className="page-footer font-small pt-4">
@@ -50,13 +49,13 @@ let Footer = () => {
                 onChange={handleChange}
               />
               {/* <div className="input-group-append"> */}
-                <button
-                  className="btn btn-sm btn-outline-white my-0 subBtn"
-                  type="button"
-                  onClick={handleSubmit}
-                >
-                  Subscribe
-                </button>
+              <button
+                className="btn btn-sm btn-outline-white my-0 subBtn"
+                type="button"
+                onClick={handleSubmit}
+              >
+                Subscribe
+              </button>
               {/* </div> */}
             </form>
           </div>
@@ -96,15 +95,17 @@ let Footer = () => {
           </ul>
         </div>
         <div className="row">
-            <div className="col-sm-3">
-                <p className="info">BLEND IT HEALTHY</p>
-            </div>
-            <div className="col-sm-3">
-            <p className="info">(626)656-3718</p>
-            </div>
-            <div className="col-sm-6">
-            <p className="address">411 E Huntington Drive, St. 114, Arcadia, CA 91006</p>
-            </div>
+          <div className="col-sm-3">
+            <p className="info">BLEND IT HEALTHY</p>
+          </div>
+          <div className="col-sm-3">
+            <p className="info">(626) 656-3718</p>
+          </div>
+          <div className="col-sm-6">
+            <p className="address">
+              411 E Huntington Drive, St. 114, Arcadia, CA 91006
+            </p>
+          </div>
         </div>
       </div>
     </footer>

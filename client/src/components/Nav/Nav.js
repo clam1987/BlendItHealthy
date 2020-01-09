@@ -6,7 +6,7 @@ let Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <a className="navbar-brand" href="#">
-        <img className="img-fluid" src={header} />
+        <img className="img-fluid bannerImage" src={header} />
       </a>
       <button
         className="navbar-toggler"

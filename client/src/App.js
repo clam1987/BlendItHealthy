@@ -7,7 +7,9 @@ import Banner from "./components/Banner/Banner";
 import homeBanner from "./assets/HomeBanner.json";
 import Image from "./components/Image/Image"
 import homeGallery from "./assets/homeGallery.json";
-import Wrapper from "./components/Wrapper/index";
+import Wrapper from "./components/Wrapper/Wrapper";
+import ExtraImages from "./components/ExtraImages/ExtraImages";
+import HomePage from "./assets/HomePage.json"
 
 
 
@@ -15,6 +17,10 @@ import Wrapper from "./components/Wrapper/index";
 
 
 function App() {
+  const BottomImage = HomePage.map(botimg => {
+    return <ExtraImages key={botimg.id} banners={require("./assets/images/" + botimg.image)}/>
+  })
+
   const Home = homeBanner.map(info => {
     return <Banner key={info.id} h1={info.h1} message={info.message} image={require("./assets/images/" + info.image)} name={info.name} />
   })
@@ -30,7 +36,8 @@ function App() {
       {Gallery}
 
       </Wrapper>
-      <header className="App-header">
+      {BottomImage}
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -43,7 +50,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
       <Footer />
     </div>
   );
