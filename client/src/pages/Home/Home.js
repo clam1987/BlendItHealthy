@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "../../components/Footer/Footer";
 import Banner from "../../components/Banner/Banner";
 import homeBanner from "../../assets/HomeBanner.json";
 import Image from "../../components/Image/Image"

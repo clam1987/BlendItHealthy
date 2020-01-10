@@ -4,6 +4,10 @@ import Navbar from "./components/Nav/Nav";
 import Footer from "./components/Footer/Footer";
 import Home from "./pages/Home/Home";
 import AboutUs from "./pages/AboutUs/AboutUs";
+import Menu from "./pages/Menu/Menu";
+import Ingredients from "./pages/Ingredients/Ingredients";
+import Resources from "./pages/Resources/Resources"
+import Programs from "./pages/Programs/Programs"
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 
@@ -16,7 +20,11 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/home" component={Home} />
-          <Route exact path="/aboutus" component={AboutUs} />
+          <Route path="/aboutus" component={AboutUs} />
+          <Route path="/menu" component={Menu} />
+          <Route path="/ingredients" component={Ingredients} />
+          <Route path="/resources" component={Resources} />
+          <Route path="/programs" component={Programs} />
         </Switch>
         <Footer />
         </div>
@@ -26,20 +34,3 @@ function App() {
 }
 
 export default App;
-
-
-
-{/* <header className="App-header">
-<img src={logo} className="App-logo" alt="logo" />
-<p>
-Edit <code>src/App.js</code> and save to reload.
-  </p>
-  <a
-  className="App-link"
-  href="https://reactjs.org"
-  target="_blank"
-  rel="noopener noreferrer"
-  >
-  Learn React
-  </a>
-</header>  */}

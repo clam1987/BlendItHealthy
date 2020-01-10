@@ -23,9 +23,18 @@
   font-weight: 600;
 }
 
-/* #aboutMe { */
-  /* white-space: pre-line; */
-  /* display: inline-block !important; */
-/* } */
+#aboutMe { 
+  font-size: .9375rem;
+}
 
+@media screen and (max-width: 991px) {
+  .dropdown-item {
+    text-align: center;
+  }
+}
 
+@media screen and (max-width: 493px) {
+  .navbar-nav {
+    width: 116%;
+  }
+}

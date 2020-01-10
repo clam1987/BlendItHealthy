@@ -1,11 +1,10 @@
 import React from "react";
+import "../AboutUs/AboutUs.css"
 
 let AboutUs = () => {
     return (
-        <div className="container-fluid">
-            <h1>Please show this</h1>
-        </div>
+        <h1>Hello</h1>
     )
-}
+};
 
 export default AboutUs;
