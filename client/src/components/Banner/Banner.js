@@ -10,7 +10,7 @@ let Banner = props => {
             <span className="firstWord">{props.h1}</span> {props.message}
           </p>
         </div>
-        <div className="col-sm-4 px-0">
+        <div className="col-sm-4 px-0 imgCol">
           <img
             className="img-fluid bannerImg"
             src={props.image}
