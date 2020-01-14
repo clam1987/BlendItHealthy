@@ -1,4 +1,5 @@
 .banner {
+  /* height: fit-content; */
   height: auto;
   width: 100%;
   background-color: #2e7d39;
@@ -11,6 +12,7 @@
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
   padding: 1rem;
+  padding-top: 2.5rem;
   text-align: left;
 }
 
@@ -24,4 +26,6 @@
 
 .bannerImg {
   width: 100%;
+  height: 226px;
 }
+

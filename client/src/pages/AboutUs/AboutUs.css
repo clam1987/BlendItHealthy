@@ -1,4 +1,63 @@
 .aboutUs {
     font-family: 'Dancing Script', cursive;
     color: white;
+    font-size: 80px;
+    text-align: left;
+    padding-left: 4rem;
+}
+
+#banner2 {
+    background-color: #2E7D39;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.aboutUsText {
+    text-align: left;
+    font-size: 1.2rem;
+    color: #2E7D39;
+    margin-bottom: 0;
+}
+
+#bottomMargin {
+    margin-bottom: 1em;
+}
+
+#textContainer {
+    margin-top: 1.5em;
+    margin-left: 1.5em;
+}
+
+#testBtn {
+    font-size: 60px;
+    line-height: 50px;
+    background-color: #FFEC00;
+    border-color: #FF7600;
+    margin: 3rem;
+}
+
+#testBtn:before {
+    border-color: #FFB000;
+}
+#banner3{
+    background-color: #4198FF;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+}
+
+#botBanner {
+    font-size: 80px;
+    text-align: right !important;
+    padding-right: 6rem;
+}
+
+#botImg {
+    height: 100%;
+    width: 100%;
+}
+
+#botImgDiv {
+    margin-bottom: 10em;
 }

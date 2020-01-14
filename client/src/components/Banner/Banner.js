@@ -3,8 +3,8 @@ import "../Banner/Banner.css";
 
 let Banner = props => {
   return (
-    <div className="container-fluid px-0">
-      <div className="row">
+    // <div className="container-fluid px-0">
+      <div className="row bannerRow">
         <div className="col-sm-8 banner">
           <p className="bannerText" align="justify">
             <span className="firstWord">{props.h1}</span> {props.message}
@@ -18,7 +18,7 @@ let Banner = props => {
           />
         </div>
       </div>
-    </div>
+    // </div>
   );
 };
 
