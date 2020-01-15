@@ -16,7 +16,7 @@ let AboutUs = () => {
         <>
             <Banner2 />
             <AboutText />
-            <TestButton />
+            {/* <TestButton /> */}
             <Banner3 />
             <AboutBotText />
         </>

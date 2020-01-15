@@ -4,6 +4,7 @@
     background-color: #FFEC00;
     border-color: #FF7600;
     margin: 3rem;
+    padding: 3rem;
 }
 
 #testBtn:before {

@@ -17,6 +17,6 @@ code {
   src: local('Playlist_Script'), url(./assets/fonts/Playlist_Script.otf) format('truetype');
 }
 
-html, body {
+/* html, body {
   overflow-x:hidden;
-}
+} */

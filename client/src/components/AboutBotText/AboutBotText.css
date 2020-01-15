@@ -6,3 +6,9 @@
 #botImgDiv {
     margin-bottom: 10em;
 }
+
+.aboutBotText {
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
