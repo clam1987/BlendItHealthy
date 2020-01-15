@@ -11,3 +11,12 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
+
+#bannerImg {
+    background-color: #2E7D39;
+}
+
+#storeFront {
+    height: auto;
+    width: 79%;
+}
