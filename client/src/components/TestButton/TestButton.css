@@ -1,0 +1,11 @@
+#testBtn {
+    font-size: 60px;
+    line-height: 50px;
+    background-color: #FFEC00;
+    border-color: #FF7600;
+    margin: 3rem;
+}
+
+#testBtn:before {
+    border-color: #FFB000;
+}

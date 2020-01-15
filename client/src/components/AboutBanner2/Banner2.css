@@ -1,0 +1,13 @@
+.aboutUs {
+    font-family: "Playlist_Script";
+    color: white;
+    font-size: 80px;
+    text-align: left;
+    padding-left: 4rem;
+}
+
+#banner2 {
+    background-color: #2E7D39;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}

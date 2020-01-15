@@ -1,0 +1,15 @@
+.aboutUsText {
+    text-align: left;
+    font-size: 1.2rem;
+    color: #2E7D39;
+    margin-bottom: 0;
+}
+
+#bottomMargin {
+    margin-bottom: 1em;
+}
+
+#textContainer {
+    margin-top: 1.5em;
+    margin-left: 1.5em;
+}
