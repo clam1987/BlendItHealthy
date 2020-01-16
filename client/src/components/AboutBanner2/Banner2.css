@@ -7,16 +7,13 @@
 }
 
 #banner2 {
-    background-color: #2E7D39;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
 
-#bannerImg {
+#bannerRow {
     background-color: #2E7D39;
 }
-
-#storeFront {
-    height: auto;
-    width: 79%;
-}
+/* #eDiv {
+    background-color: #2E7D39;
+} */

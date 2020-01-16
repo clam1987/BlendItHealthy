@@ -5,7 +5,7 @@ import AboutText from "../../components/AboutText/AboutText"
 import TestButton from "../../components/TestButton/TestButton"
 import Banner3 from "../../components/AboutBanner3/Banner3"
 import AboutBotText from "../../components/AboutBotText/AboutBotText"
-
+import Image from "../../components/AboutBannerImage/AboutBannerImage";
 
 
 
@@ -15,8 +15,9 @@ let AboutUs = () => {
     return (
         <>
             <Banner2 />
+            <Image />
             <AboutText />
-            {/* <TestButton /> */}
+            <TestButton />
             <Banner3 />
             <AboutBotText />
         </>

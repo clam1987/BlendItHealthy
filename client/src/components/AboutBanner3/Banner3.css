@@ -11,3 +11,10 @@
     text-align: right !important;
     padding-right: 6rem;
 }
+
+@media only screen and (max-width: 768px) {
+    #banner3 {
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+  }
