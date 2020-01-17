@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/BIH/static/css/main.882cfff5.chunk.css",
+    "main.js": "/BIH/static/js/main.109f1218.chunk.js",
+    "main.js.map": "/BIH/static/js/main.109f1218.chunk.js.map",
+    "runtime-main.js": "/BIH/static/js/runtime-main.4652c88e.js",
+    "runtime-main.js.map": "/BIH/static/js/runtime-main.4652c88e.js.map",
+    "static/js/2.3446e357.chunk.js": "/BIH/static/js/2.3446e357.chunk.js",
+    "static/js/2.3446e357.chunk.js.map": "/BIH/static/js/2.3446e357.chunk.js.map",
+    "index.html": "/BIH/index.html",
+    "precache-manifest.7672936cac529a581af1327278580041.js": "/BIH/precache-manifest.7672936cac529a581af1327278580041.js",
+    "service-worker.js": "/BIH/service-worker.js",
+    "static/css/main.882cfff5.chunk.css.map": "/BIH/static/css/main.882cfff5.chunk.css.map",
+    "static/js/2.3446e357.chunk.js.LICENSE": "/BIH/static/js/2.3446e357.chunk.js.LICENSE",
+    "static/media/BIH.png": "/BIH/static/media/BIH.f1e39fb4.png",
+    "static/media/BIH1.png": "/BIH/static/media/BIH1.f1e39fb4.png",
+    "static/media/BIH_logo.png": "/BIH/static/media/BIH_logo.38a7636d.png",
+    "static/media/BIH_logo2.png": "/BIH/static/media/BIH_logo2.60d90486.png",
+    "static/media/Headache Reliever2.png": "/BIH/static/media/Headache Reliever2.042e0ec2.png",
+    "static/media/Manach_5674.png": "/BIH/static/media/Manach_5674.163d464b.png",
+    "static/media/Manach_56741.png": "/BIH/static/media/Manach_56741.99d4f1c4.png",
+    "static/media/OurProgram.png": "/BIH/static/media/OurProgram.138724df.png",
+    "static/media/Playlist_Script.otf": "/BIH/static/media/Playlist_Script.bc327d49.otf",
+    "static/media/TangyMango_5577.png": "/BIH/static/media/TangyMango_5577.08b7b580.png",
+    "static/media/healthySmoothie.png": "/BIH/static/media/healthySmoothie.cf642694.png",
+    "static/media/store_front.png": "/BIH/static/media/store_front.c8dd442e.png",
+    "static/media/store_front1.png": "/BIH/static/media/store_front1.fd9e7333.png",
+    "static/media/store_inside.png": "/BIH/static/media/store_inside.c9ae1a94.png",
+    "static/media/store_inside1.png": "/BIH/static/media/store_inside1.f5f5101b.png",
+    "static/media/tk.png": "/BIH/static/media/tk.81263a29.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4652c88e.js",
+    "static/js/2.3446e357.chunk.js",
+    "static/css/main.882cfff5.chunk.css",
+    "static/js/main.109f1218.chunk.js"
+  ]
+}
