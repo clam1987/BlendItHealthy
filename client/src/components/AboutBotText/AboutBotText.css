@@ -4,7 +4,7 @@
 }
 
 #botImgDiv {
-    margin-bottom: 10em;
+    margin-bottom: 5em;
 }
 
 .aboutBotText {
@@ -19,3 +19,9 @@
         margin-bottom: 3em;
     }
   }
+
+@media only screen and (max-width: 1024px) {
+    #botImgDiv {
+        margin-bottom: 3em;
+    }
+}

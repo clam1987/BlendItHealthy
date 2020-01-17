@@ -2,16 +2,13 @@ import React from "react";
 import "../AboutBanner2/Banner2.css";
 import storeFront from "../../assets/images/store_front.png"
 
-let Banner2 = () => {
+let Banner2 = (props) => {
   return (
     <div className="container-fluid">
       <div className="row" id="bannerRow">
         <div className="col-sm-8" id="banner2">
-          <p className="aboutUs">About Us</p>
+        <p className="aboutUs">{props.text}</p>
         </div>
-        {/* <div className="col-sm-4" id="eDiv"> */}
-            {/* <img src={storeFront} alt="store_front" id="storeFront" /> */}
-        {/* </div> */}
       </div>
       </div>
   );

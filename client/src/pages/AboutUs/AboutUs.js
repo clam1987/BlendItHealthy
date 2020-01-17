@@ -14,7 +14,7 @@ import Image from "../../components/AboutBannerImage/AboutBannerImage";
 let AboutUs = () => {
     return (
         <>
-            <Banner2 />
+            <Banner2 text="About Us"/>
             <Image />
             <AboutText />
             <TestButton />

@@ -8,6 +8,7 @@ import Menu from "./pages/Menu/Menu";
 import Ingredients from "./pages/Ingredients/Ingredients";
 import Resources from "./pages/Resources/Resources"
 import Programs from "./pages/Programs/Programs"
+import Testimonials from "../src/pages/Testimonials/Testimonials"
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 
@@ -25,6 +26,7 @@ function App() {
           <Route path="/ingredients" component={Ingredients} />
           <Route path="/resources" component={Resources} />
           <Route path="/programs" component={Programs} />
+          <Route path="/testimonials" component={Testimonials} />
         </Switch>
         <Footer />
         </div>
