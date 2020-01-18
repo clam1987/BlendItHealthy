@@ -4,16 +4,39 @@ import BannerReusable from "../../components/BannerReusable/BannerReuseable"
 import "../Menu/Menu.css";
 
 let Menu = () => {
-    let handleHover = () => {
-        console.log("mouse over")
-    }
-    return (
-        <>
+    let button = document.getElementsByClassName("menuBtn")
+    
+    let [clicked, setClicked] = useState({
+        isClicked: false,
+    })
+    let [data, setData] = useState({
+        dataColor: "red",
+        backgroundColor: "#9AB49D"
+    })
+
+    let handleChange = () => {
+        setClicked({isClicked: true});
+    } 
+    
+    let handleClick = () => {
+        console.log("click me")
+        handleChange()
+        switch (clicked.isClicked === true) {
+            case data.dataColor:
+                console.log("hello world");
+                default:
+                    console.log("click us"); 
+                }
+            }
+            // console.log(clicked.isClicked);
+            // console.log(data.dataColor)
+            return (
+                <>
         <BannerReusable text="Our Menu"/>
         <div className="row">
             <div className="col-sm-1"></div>
             <div className="col-sm-2">
-            <button className="btn menuBtn" style={{fontSize: 24, backgroundColor:"#E55538"}}>ALL FRUITS, FRUITS & VEGGIES, MEAL REPLACER</button>
+            <button className="btn menuBtn" onClick={handleClick} data="red" style={{fontSize: 24, backgroundColor:"#E55538"}}>ALL FRUITS, FRUITS & VEGGIES, MEAL REPLACER</button>
             </div>
             <div className="col-sm-2">
             <button className="btn menuBtn" style={{fontSize:26, backgroundColor:"#11AC4C"}}>CLEANSING DETOX, NATURAL REMEDIES</button>
