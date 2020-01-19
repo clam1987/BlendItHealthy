@@ -1,5 +1,5 @@
 import React from "react";
-import header from "../../assets/images/Navbar/Logo/BIH.png"
+import header from "../../assets/images/Navbar/Logo/BIH.png";
 import "../Nav/Nav.css";
 
 let Navbar = () => {
@@ -28,12 +28,24 @@ let Navbar = () => {
             </a>
           </li>
           <li className="nav-item dropdown">
-            <a className="nav-link dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="/aboutus" id="aboutMe">
+            <a
+              className="nav-link dropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              href="/aboutus"
+              id="aboutMe"
+            >
               OUR STORY
             </a>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a className="dropdown-item" href="/aboutus">ABOUT US</a>
-              <a className="dropdown-item" href="/testimonials">TESTIMONIALS</a>
+              <a className="dropdown-item" href="/aboutus">
+                ABOUT US
+              </a>
+              <a className="dropdown-item" href="/testimonials">
+                TESTIMONIALS
+              </a>
             </div>
           </li>
           <li className="nav-item">

@@ -17,15 +17,14 @@
 }
 
 .firstWord {
-    font-weight: 500;
-    font-family: "Poppins", sans-serif;
-    font-size: 1.5rem;
-    margin: .75em 0;
-    text-align: left;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  margin: 0.75em 0;
+  text-align: left;
 }
 
 .bannerImg {
   width: 100%;
   height: 226px;
 }
-

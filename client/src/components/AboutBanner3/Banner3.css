@@ -1,20 +1,20 @@
-#banner3{
-    background-color: #4198FF;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    margin-bottom: 5rem;
-    margin-top: 5rem;
+#banner3 {
+  background-color: #4198ff;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
 }
 
 #botBanner {
-    font-size: 80px;
-    text-align: right !important;
-    padding-right: 6rem;
+  font-size: 80px;
+  text-align: right !important;
+  padding-right: 6rem;
 }
 
 @media only screen and (max-width: 768px) {
-    #banner3 {
-        margin-bottom: 2rem;
-        margin-top: 2rem;
-    }
+  #banner3 {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
   }
+}

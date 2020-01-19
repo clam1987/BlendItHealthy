@@ -1,27 +1,26 @@
 #botImg {
-    height: 50%;
-    width: 50%;
+  height: 50%;
+  width: 50%;
 }
 
 #botImgDiv {
-    margin-bottom: 5em;
+  margin-bottom: 5em;
 }
 
 .aboutBotText {
-    font-size: 18px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 
-
 @media only screen and (max-width: 768px) {
-    #botImgDiv {
-        margin-bottom: 3em;
-    }
+  #botImgDiv {
+    margin-bottom: 3em;
   }
+}
 
 @media only screen and (max-width: 1024px) {
-    #botImgDiv {
-        margin-bottom: 3em;
-    }
+  #botImgDiv {
+    margin-bottom: 3em;
+  }
 }

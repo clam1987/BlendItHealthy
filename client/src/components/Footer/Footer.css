@@ -51,17 +51,17 @@ a:not([href]) {
 }
 
 .subBtn {
-    background-color: #2e7d39;
-    border: none;
-    color: white;
-    padding: 12px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    border-radius: 2rem;
-    z-index: 99;
+  background-color: #2e7d39;
+  border: none;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 2rem;
+  z-index: 99;
 }
 
 .footerInput {

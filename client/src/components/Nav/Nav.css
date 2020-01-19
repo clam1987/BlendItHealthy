@@ -16,15 +16,15 @@
 
 .nav-link {
   color: #000000;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 18px;
   text-align: center;
   font-weight: 600;
 }
 
-#aboutMe { 
-  font-size: .9375rem;
+#aboutMe {
+  font-size: 0.9375rem;
 }
 
 @media screen and (max-width: 991px) {

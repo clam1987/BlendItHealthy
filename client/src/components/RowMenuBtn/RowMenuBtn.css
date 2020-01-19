@@ -1,0 +1,11 @@
+.menuBtn {
+    height: 115px;
+    widows: 171px;
+    font-family: 'Bebas Neue', cursive;
+    color: #FFFFFF;
+}
+
+#rowMenuBtn {
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
+}

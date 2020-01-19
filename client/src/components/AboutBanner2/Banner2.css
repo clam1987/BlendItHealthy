@@ -1,16 +1,16 @@
 .aboutUs {
-    font-family: "Playlist_Script";
-    color: white;
-    font-size: 80px;
-    text-align: left;
-    padding-left: 4rem;
+  font-family: "Playlist_Script";
+  color: white;
+  font-size: 80px;
+  text-align: left;
+  padding-left: 4rem;
 }
 
 #banner2 {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 #bannerRow {
-    background-color: #2E7D39;
+  background-color: #2e7d39;
 }

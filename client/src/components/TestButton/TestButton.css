@@ -1,36 +1,36 @@
 #testBtn {
-    font-size: 3.75rem;
-    line-height: 3.125rem;
-    background-color: #FFEC00;
-    border-color: #FF7600;
-    margin: 1rem;
-    padding: 3rem;
-    font-family: 'Bebas Neue', cursive;
+  font-size: 3.75rem;
+  line-height: 3.125rem;
+  background-color: #ffec00;
+  border-color: #ff7600;
+  margin: 1rem;
+  padding: 3rem;
+  font-family: "Bebas Neue", cursive;
 }
 
 #testBtn:before {
-    border-color: #FFB000;
+  border-color: #ffb000;
 }
 
 @media only screen and (max-width: 600px) {
-    #testBtn {
-        font-size: 1rem;
-        line-height: 2rem;
-    }
+  #testBtn {
+    font-size: 1rem;
+    line-height: 2rem;
   }
+}
 
-  @media only screen and (max-width: 768px) {
-    #testBtn {
-        font-size: 1rem;
-        line-height: 2rem;
-        padding: 2em;
-    }
+@media only screen and (max-width: 768px) {
+  #testBtn {
+    font-size: 1rem;
+    line-height: 2rem;
+    padding: 2em;
   }
+}
 
-  @media only screen and (max-width: 1024px) {
-    #testBtn {
-        font-size: 1rem;
-        line-height: 2rem;
-        padding: 2em;
-    }
+@media only screen and (max-width: 1024px) {
+  #testBtn {
+    font-size: 1rem;
+    line-height: 2rem;
+    padding: 2em;
   }
+}

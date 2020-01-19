@@ -1,59 +1,59 @@
 .aboutUsText {
-    text-align: left;
-    font-size: 1.2rem;
-    color: #2E7D39;
-    margin-bottom: 0;
-    font-family: "Poppins", sans-serif;
+  text-align: left;
+  font-size: 1.2rem;
+  color: #2e7d39;
+  margin-bottom: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 #bottomMargin {
-    margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 #textContainer {
-    margin-top: -17rem;
-    margin-left: 1.5em;
+  margin-top: -17rem;
+  margin-left: 1.5em;
 }
 
 @media only screen and (max-width: 600px) {
-    #textContainer {
-        margin-top: 1.5rem;
-    }
+  #textContainer {
+    margin-top: 1.5rem;
+  }
 }
 
 @media only screen and (min-width: 768px) {
-    #textContainer {
-        margin-top: -9.5rem;
-    }
-    .aboutUsText {
-        font-size: .8rem;
-    }
+  #textContainer {
+    margin-top: -9.5rem;
+  }
+  .aboutUsText {
+    font-size: 0.8rem;
+  }
 }
 
 @media only screen and (min-width: 922px) {
-    #textContainer {
-        margin-top: -13.5rem;
-    }
-    .aboutUsText {
-        font-size: .9rem;
-    }
+  #textContainer {
+    margin-top: -13.5rem;
+  }
+  .aboutUsText {
+    font-size: 0.9rem;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
-    .aboutUsText {
-        text-align: left;
-        font-size: 1.2rem;
-        color: #2E7D39;
-        margin-bottom: 0;
-        font-family: "Poppins", sans-serif;
-    }
-    
-    #bottomMargin {
-        margin-bottom: 1em;
-    }
-    
-    #textContainer {
-        margin-top: -17rem;
-        margin-left: 1.5em;
-    }
+  .aboutUsText {
+    text-align: left;
+    font-size: 1.2rem;
+    color: #2e7d39;
+    margin-bottom: 0;
+    font-family: "Poppins", sans-serif;
+  }
+
+  #bottomMargin {
+    margin-bottom: 1em;
+  }
+
+  #textContainer {
+    margin-top: -17rem;
+    margin-left: 1.5em;
+  }
 }
