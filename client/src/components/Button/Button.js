@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../Button/Button.css";
-import CardList from "../CardList/CardList";
-import pills from "../../assets/images/pills.png";
+import CardList2 from "../CardList2/CardList2"
 
 let Button = props => {
   let [hide, setHide] = useState({ isHidden: true });
@@ -35,7 +34,7 @@ let Button = props => {
           style={{ marginBottom: "1em", marginTop: "-4em" }}
           id="rowHidden"
         >
-          <CardList
+          <CardList2
             title={[
               "CALIFORNIA AND FLORIDA AVOCADOS DIFFERENCE",
               "BEST DETOX FRUIT WATERS",
@@ -50,7 +49,21 @@ let Button = props => {
               "It is a high-quality protein replete with all the essential amino acids.",
               "A person's mind and spirit are treated as important to health and body."
             ]}
-            cardImg={["avocado.jpg", "lemons.jpg", "pills.png","vanilla.jpg","Mindfulness.png"]}
+            cardImg={[
+              "avocado.jpg",
+              "lemons.jpg",
+              "pills.png",
+              "vanilla.jpg",
+              "Mindfulness.png"
+            ]}
+            // Place holder link for detox, and holsitic medicine
+            links={[
+              "https://www.quickanddirtytips.com/health-fitness/healthy-eating/what-s-the-difference-between-california-and-florida-avocados",
+              "https://www.healthline.com/nutrition/detox-water-101",
+              "https://www.health.harvard.edu/newsweek/Listing_of_vitamins.htm",
+              "https://www.myhealthylivingcoach.com/what-is-whey-protein-isolate-and-how-can-it-help-you",
+              "https://www.webmd.com/balance/guide/what-is-holistic-medicine"
+            ]}
           />
         </div>
       ) : null}

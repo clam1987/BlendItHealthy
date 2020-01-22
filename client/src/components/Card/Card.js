@@ -2,6 +2,7 @@ import React from "react";
 import "../Card/Card.css";
 
 let Card = props => {
+  // console.log(props)
   return (
     <li>
       <div className="card mb-3" style={{ maxWidth: 720 }}>
@@ -10,9 +11,9 @@ let Card = props => {
             <div className="card-body">
               <h5 className="card-title">{props.title}</h5>
               <p className="card-text">{props.p1}</p>
-              <a href="#">
+              <a href={props.links}>
                 <p className="card-text text-right">
-                  <strong>Read Article</strong>
+                  <strong><u>Read Article >>></u></strong>
                 </p>
               </a>
             </div>
