@@ -1,6 +1,8 @@
 .menuBtn {
-    height: 115px;
-    widows: 171px;
+    max-height: 115px;
+    max-width: 171px;
+    height: 100%;
+    width: 100%;
     font-family: 'Bebas Neue', cursive;
     color: #FFFFFF;
 }
@@ -8,4 +10,28 @@
 #rowMenuBtn {
     margin-top: 3.5rem;
     margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .menuBtn {
+        max-height: 115px;
+        max-width: 288px;
+        height: 100%;
+        width: 100%;
+        font-family: 'Bebas Neue', cursive;
+        color: #FFFFFF;
+        font-size: 14px !important;
+    }
+}
+
+@media screen and (max-width: 1180px) and (min-width: 600px) {
+    .menuBtn {
+        max-height: 115px;
+        max-width: 171px;
+        height: 100%;
+        width: 100%;
+        font-family: 'Bebas Neue', cursive;
+        color: #FFFFFF;
+        font-size: 15px !important;
+    }
 }

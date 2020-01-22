@@ -4,7 +4,6 @@ import Card from "../Card/Card";
 
 
 let CardList = props => {
-    console.log(props.link)
     return (
         <div className="row" id="cardRow">
             <ul className="list-inline mx-auto justify-content-center">

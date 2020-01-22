@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
-// import "../CardList2/CardList2.css"
+import "../CardList2/CardList2.css"
 import Card from "../Card/Card";
 
 
 let CardList2 = (props) => {
     // console.log(props)
     return (
-        <div className="row" id="cardRow">
+        <div className="row" id="cardRow2">
             <ul className="list-inline mx-auto justify-content-center">
                 <Card title={props.title[0]} p1={props.p1[0]} cardImg={props.cardImg[0]} links={props.links[0]}/>
                 <Card title={props.title[1]} p1={props.p1[1]} cardImg={props.cardImg[1]} links={props.links[1]}/>

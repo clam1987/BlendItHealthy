@@ -5,3 +5,13 @@
   text-align: center;
   padding-left: 4rem;
 }
+
+@media screen and (max-width: 600px) {
+  .bannerTextReUse {
+    font-family: "Playlist_Script";
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    padding-left: 4rem;
+  }
+}

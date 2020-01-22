@@ -15,7 +15,7 @@ let Button = props => {
     }
   };
   let { isHidden } = hide;
-  console.log(isHidden);
+
   return (
     <>
       {isHidden ? (
@@ -31,7 +31,6 @@ let Button = props => {
       {isHidden === false ? (
         <div
           className="row justify-content-center"
-          style={{ marginBottom: "1em", marginTop: "-4em" }}
           id="rowHidden"
         >
           <CardList2

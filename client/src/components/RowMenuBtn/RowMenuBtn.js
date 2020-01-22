@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "../RowMenuBtn/RowMenuBtn.css";
 import redMenu from "../../assets/images/red_menu.png"
 import blueMenu from "../../assets/images/blue_menu.png"
@@ -92,6 +92,17 @@ let [clickedYellow, setClickedYellow] = useState({
       fontSize: 32
     }
 });
+
+  useEffect(() => {
+    setClickedRed({
+      dataColor: "red",
+      isClicked: true,
+      pageStyle: {
+        backgroundColor:"#E55538",
+        fontSize: 24
+      },
+    })
+  },[])
 
     let handleClick = (e) => {
         let val = e.target.dataset.color
