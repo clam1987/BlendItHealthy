@@ -6,11 +6,9 @@ let Button = props => {
   let [hide, setHide] = useState({ isHidden: true });
   let handleClick = () => {
     if (hide.isHidden === true) {
-      console.log(`current state of hide is ${hide.isHidden}`);
       return setHide({ isHidden: false });
     }
     if (hide.isHidden === false) {
-      console.log(`current state of hide is ${hide.isHidden}`);
       return setHide({ isHidden: true });
     }
   };

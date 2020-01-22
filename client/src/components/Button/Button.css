@@ -11,7 +11,9 @@
 #rowHidden {
     width: 100%;
     margin-bottom: 1em;
-    margin-top: 0em;
+    margin-top: -4em;
+    margin-left: .1em;
+
 }
 @media screen and (max-width: 320px) {
     #rowHidden {
