@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6d7d58e0eca22efc2cd2daf91e08e172",
+    "revision": "a53f17d701eb53cea0e3ff7ecc210c5b",
     "url": "/BIH/index.html"
   },
   {
-    "revision": "831eaf42751a850103c9",
-    "url": "/BIH/static/css/main.882cfff5.chunk.css"
+    "revision": "8818bd92fc7e13ab0587",
+    "url": "/BIH/static/css/main.72660bb2.chunk.css"
   },
   {
-    "revision": "d0e72b1c7de580f15497",
-    "url": "/BIH/static/js/2.3446e357.chunk.js"
+    "revision": "89b2ff1f3addbe9a790a",
+    "url": "/BIH/static/js/2.fdb53ad5.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/BIH/static/js/2.3446e357.chunk.js.LICENSE"
+    "url": "/BIH/static/js/2.fdb53ad5.chunk.js.LICENSE"
   },
   {
-    "revision": "831eaf42751a850103c9",
-    "url": "/BIH/static/js/main.109f1218.chunk.js"
+    "revision": "8818bd92fc7e13ab0587",
+    "url": "/BIH/static/js/main.9480e7d2.chunk.js"
   },
   {
     "revision": "7aaab5140707c46f32bd",
     "url": "/BIH/static/js/runtime-main.4652c88e.js"
+  },
+  {
+    "revision": "e5994de477cb72c899acbfd216442f16",
+    "url": "/BIH/static/media/10day.e5994de4.png"
   },
   {
     "revision": "f1e39fb4f78d7c64847be33177746548",
@@ -40,6 +44,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BIH/static/media/BIH_logo2.60d90486.png"
   },
   {
+    "revision": "5761f358cb7ae1761cd22b982cc0a9a8",
+    "url": "/BIH/static/media/BYO.5761f358.jpg"
+  },
+  {
     "revision": "042e0ec24512437a0e08e81549d80acb",
     "url": "/BIH/static/media/Headache Reliever2.042e0ec2.png"
   },
@@ -50,6 +58,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "99d4f1c4df237ddd907ee943273faa4d",
     "url": "/BIH/static/media/Manach_56741.99d4f1c4.png"
+  },
+  {
+    "revision": "951535ecfb3df496365226be5e13055c",
+    "url": "/BIH/static/media/Mindfulness.951535ec.png"
+  },
+  {
+    "revision": "138724dff59d5d28dc7071bc323a691c",
+    "url": "/BIH/static/media/Nut_Program.138724df.png"
   },
   {
     "revision": "138724dff59d5d28dc7071bc323a691c",
@@ -64,8 +80,48 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BIH/static/media/TangyMango_5577.08b7b580.png"
   },
   {
+    "revision": "d0eec5d78a415805c317e6edee667533",
+    "url": "/BIH/static/media/WC.d0eec5d7.png"
+  },
+  {
+    "revision": "1a016d92350b2c084bbc036e5e04cace",
+    "url": "/BIH/static/media/avocado.1a016d92.jpg"
+  },
+  {
+    "revision": "835380dc73cb8cd94dd360821105c8b6",
+    "url": "/BIH/static/media/blue_menu.835380dc.png"
+  },
+  {
+    "revision": "dd54d20323a140aa491cd78d7feb14ec",
+    "url": "/BIH/static/media/green_Juice.dd54d203.jpg"
+  },
+  {
+    "revision": "22a8eac3664c3cb85d9eebfdc83b5846",
+    "url": "/BIH/static/media/green_menu.22a8eac3.png"
+  },
+  {
     "revision": "cf642694843d6cccc09e39ee65da9626",
     "url": "/BIH/static/media/healthySmoothie.cf642694.png"
+  },
+  {
+    "revision": "87f10fda7f5f6d1859721c9e2ebabfc9",
+    "url": "/BIH/static/media/honey.87f10fda.jpg"
+  },
+  {
+    "revision": "05fc21b20b2fd6ed28c50f93fe3c439b",
+    "url": "/BIH/static/media/lemons.05fc21b2.jpg"
+  },
+  {
+    "revision": "1e58cb6601bda3faddf25af64feaba95",
+    "url": "/BIH/static/media/pills.1e58cb66.png"
+  },
+  {
+    "revision": "675cb3aa13c222afb7be7f12a8877047",
+    "url": "/BIH/static/media/purple_menu.675cb3aa.png"
+  },
+  {
+    "revision": "a550f35cd2ab0f3ff40ec88adb5b4fac",
+    "url": "/BIH/static/media/red_menu.a550f35c.png"
   },
   {
     "revision": "c8dd442e0307725b3bfa0fe7469b9ebc",
@@ -86,5 +142,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "81263a29a6c258ee507de8f665dfab41",
     "url": "/BIH/static/media/tk.81263a29.png"
+  },
+  {
+    "revision": "243ca5f315060221bca60c74fd13a11e",
+    "url": "/BIH/static/media/vanilla.243ca5f3.jpg"
   }
 ]);
