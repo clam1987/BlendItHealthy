@@ -16,6 +16,7 @@ function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
       {console.log(process.env.PUBLIC_URL)}
+      {console.log("new console log... LOAD DAMNIT!")}
       <div className="App">
         <div className="container mainContainer">
           <Navbar />
