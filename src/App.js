@@ -21,17 +21,17 @@ function App() {
           <Navbar />
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route exact path="/home" component={Home} />
-            <Route path={`${process.env.PUBLIC_URL}/`} component={AboutUs} />
-            <Route path={`${process.env.PUBLIC_URL}/`} component={Menu} />
+            <Route exact path={`${process.env.PUBLIC_URL}/home`} component={Home} />
+            <Route path={`${process.env.PUBLIC_URL}/aboutus`} component={AboutUs} />
+            <Route path={`${process.env.PUBLIC_URL}/menu`} component={Menu} />
             <Route
-              path={`${process.env.PUBLIC_URL}/`}
+              path={`${process.env.PUBLIC_URL}/ingredients`}
               component={Ingredients}
             />
-            <Route path={`${process.env.PUBLIC_URL}/`} component={Resources} />
-            <Route path={`${process.env.PUBLIC_URL}/`} component={Programs} />
+            <Route path={`${process.env.PUBLIC_URL}/resources`} component={Resources} />
+            <Route path={`${process.env.PUBLIC_URL}/programs`} component={Programs} />
             <Route
-              path={`${process.env.PUBLIC_URL}/`}
+              path={`${process.env.PUBLIC_URL}/testimonials`}
               component={Testimonials}
             />
             {/* <Route path="/aboutus" component={AboutUs} />
