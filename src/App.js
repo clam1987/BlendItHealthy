@@ -15,22 +15,23 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
+      {console.log(process.env.PUBLIC_URL)}
       <div className="App">
         <div className="container mainContainer">
           <Navbar />
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/home" component={Home} />
-            <Route path={`${process.env.PUBLIC_URL}/`} component={AboutUs} />
-            <Route path={`${process.env.PUBLIC_URL}/`} component={Menu} />
+            <Route path={`/${process.env.PUBLIC_URL}`} component={AboutUs} />
+            <Route path={`/${process.env.PUBLIC_URL}`} component={Menu} />
             <Route
-              path={`${process.env.PUBLIC_URL}/`}
+              path={`/${process.env.PUBLIC_URL}`}
               component={Ingredients}
             />
-            <Route path={`${process.env.PUBLIC_URL}/`} component={Resources} />
-            <Route path={`${process.env.PUBLIC_URL}/`} component={Programs} />
+            <Route path={`/${process.env.PUBLIC_URL}`} component={Resources} />
+            <Route path={`/${process.env.PUBLIC_URL}`} component={Programs} />
             <Route
-              path={`${process.env.PUBLIC_URL}/`}
+              path={`/${process.env.PUBLIC_URL}`}
               component={Testimonials}
             />
             {/* <Route path="/aboutus" component={AboutUs} />
