@@ -1,8 +1,4 @@
 {
-<<<<<<< HEAD
-  "homepage": "https://clam1987.github.io/BIH",
-=======
->>>>>>> b06dadf2584252deeb6cdbf6141a7350dfc8140f
   "name": "client",
   "version": "0.1.0",
   "private": true,
