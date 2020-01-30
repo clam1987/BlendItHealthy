@@ -20,3 +20,13 @@
     user-select: none;
     cursor: pointer;
   }
+
+  .fruitsCollection {
+    height: auto;
+    width: 176px;
+  }
+
+.fruitsRow:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
