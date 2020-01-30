@@ -22,11 +22,36 @@
   }
 
   .fruitsCollection {
-    height: auto;
+    height: 176px;
     width: 176px;
+    border-radius: 100%;
+    border: tomato 5px solid ;
   }
 
-.fruitsRow:nth-child(odd) {
+/* .fruitsList .fruitsRow:nth-child(odd) {
   flex-direction: row-reverse;
 }
 
+.fruitsRow:nth-child(even) {
+  flex-direction: row;
+}
+
+.fruitsList:nth-child(odd) {
+  flex-direction: row-reverse;
+} */
+
+#Avocado {
+  flex-direction: row-reverse;
+}
+
+#Beets {
+  flex-direction: row-reverse;
+}
+
+#Blueberry {
+  flex-direction: row-reverse;
+}
+
+#Carrot {
+  flex-direction: row-reverse;
+}

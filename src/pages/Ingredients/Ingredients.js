@@ -14,14 +14,16 @@ let Ingredients = () => {
         description:
           "Antioxidant\n Cardiovascular Benefits\n Blood Sugar Regulation",
         link: "https://www.medicalnewstoday.com/articles/267290.php#benefits",
-        image: "apple.jpg"
+        image: "apple.jpg",
+        color: "#BA110B 5px solid"
       },
       {
-        name: "Avocada",
+        name: "Avocado",
         description:
           "Anti-Inflammatory\n Promote Heart Healthy\n Anti-Cancer Benefits",
         link: "https://www.medicalnewstoday.com/articles/318620.php#nutrition",
-        image: "avocado.jpg"
+        image: "avocado.jpg",
+        color: "#3A813A 5x solid"
       },
       {
         name: "Banana",
@@ -194,7 +196,8 @@ let Ingredients = () => {
       description={fruit.description}
       link={fruit.link}
       name={fruit.name}
-      // img={require("../../assets/images/" + fruit.image)}
+      img={require("../../assets/images/" + fruit.image)}
+      color={fruit.color}
     />
   ));
   // let newItems = items[0].data.map(item => {
@@ -300,9 +303,9 @@ export default Ingredients;
 let ListCardLeft = props => {
   return (
     <li>
-      <div className="row fruitsRow">
+      <div className="row" id={props.name}>
         <div className="col-sm-2">
-          <img src={props.img} alt={props.name} className="fruitsCollection" id={props.fruitName}/>
+          <img src={props.img} alt={props.name} style={{border: props.color}} className="fruitsCollection" id={props.fruitName}/>
         </div>
         <div className="col-sm-2">{props.name}</div>
         <div className="col-sm-4">{props.description}</div>
