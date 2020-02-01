@@ -10,6 +10,7 @@ let Ingredients = () => {
   const fruits = [
     [
       {
+        uid: "fruit1",
         name: "Apple",
         description:
           "Antioxidant\n Cardiovascular Benefits\n Blood Sugar Regulation",
@@ -20,6 +21,7 @@ let Ingredients = () => {
         descripColor: "#E0635E"
       },
       {
+        uid: "fruit2",
         name: "Avocado",
         description:
           "Anti-Inflammatory\n Promote Heart Healthy\n Anti-Cancer Benefits",
@@ -30,6 +32,7 @@ let Ingredients = () => {
         descripColor: "#79B579"
       },
       {
+        uid: "fruit3",
         name: "Banana",
         description:
           "Protect Eyesight\n Prevent High Blood Pressure\n Best Source of Potassium",
@@ -40,6 +43,7 @@ let Ingredients = () => {
         descripColor: "#FFBE53"
       },
       {
+        uid: "fruit4",
         name: "Beets",
         description: "Antioxidants\n Detoxification\n Anti-Inflammatory",
         link: "https://www.medicalnewstoday.com/articles/277432.php",
@@ -49,6 +53,7 @@ let Ingredients = () => {
         descripColor: "#C04E52"
       },
       {
+        uid: "fruit5",
         name: "Blackberry",
         description: "Vitamin E\n Antioxidants\n Vitamin C",
         link:
@@ -59,6 +64,7 @@ let Ingredients = () => {
         descripColor: "#6C6C6C"
       },
       {
+        uid: "fruit6",
         name: "Blueberry",
         description:
           "Cardiovascular Benefits\n Anti-Cancer Benefits\n Supports Vision Health",
@@ -69,6 +75,7 @@ let Ingredients = () => {
         descripColor: "#8A9ACB"
       },
       {
+        uid: "fruit7",
         name: "Cantaloupe",
         description: "Anti-Inflammatory\n Antioxidants\n Vitamin A",
         link: "https://www.medicalnewstoday.com/articles/279176.php",
@@ -78,6 +85,7 @@ let Ingredients = () => {
         descripColor: "#F0BE80"
       },
       {
+        uid: "fruit8",
         name: "Carrot",
         description: "Vision Health\n Antioxidants\n Anti-Cancer Benefits",
         link: "https://www.medicalnewstoday.com/articles/270191.php",
@@ -87,6 +95,7 @@ let Ingredients = () => {
         descripColor: "#FFA563"
       },
       {
+        uid: "fruit9",
         name: "Celery",
         description:
           "Anti-Inflammatory\n Digestive Support\n Cardiovascular Support",
@@ -99,6 +108,7 @@ let Ingredients = () => {
     ],
     [
       {
+        uid: "fruit10",
         name: "Cucumber",
         description: "Manganese\n Vitamin C\n Antioxidants",
         link: "https://www.medicalnewstoday.com/articles/283006.php",
@@ -108,6 +118,7 @@ let Ingredients = () => {
         descripColor: "#91BA86"
       },
       {
+        uid: "fruit11",
         name: "Grape",
         description:
           "Antioxidants\n Cardiovascular Benefits\n Anti-Cancer Benefits",
@@ -118,6 +129,7 @@ let Ingredients = () => {
         descripColor: "#D073CC"
       },
       {
+        uid: "fruit12",
         name: "Honeydew",
         description: "Vitamin B-6\n Vitamin C\n Best Sources of Potassium",
         link: "https://www.medicalnewstoday.com/articles/271156.php",
@@ -127,6 +139,7 @@ let Ingredients = () => {
         descripColor: "#99D292"
       },
       {
+        uid: "fruit13",
         name: "Kale",
         description:
           "Antioxidants\n Digestive Support\n Cardiovascular Benefits",
@@ -137,6 +150,7 @@ let Ingredients = () => {
         descripColor: "#90AE75"
       },
       {
+        uid: "fruit14",
         name: "Mango",
         description: "Digestive Support\n Boosts Immune System\n Vision Health",
         link: "https://www.medicalnewstoday.com/articles/275921.php",
@@ -146,6 +160,7 @@ let Ingredients = () => {
         descripColor: "#FFC421"
       },
       {
+        uid: "fruit15",
         name: "Orange",
         description:
           "Cardiovascular Benefits\n Anti-Cancer Benefits\n Supports Vision Health",
@@ -156,6 +171,7 @@ let Ingredients = () => {
         descripColor: "#FF9E4B"
       },
       {
+        uid: "fruit16",
         name: "Papaya",
         description: "Digestive Suppoprt\n Anti-Cancer Benefits\n Vitamin C",
         link: "https://www.medicalnewstoday.com/articles/275517.php",
@@ -165,6 +181,7 @@ let Ingredients = () => {
         descripColor: "#F57610"
       },
       {
+        uid: "fruit17",
         name: "Peach",
         description: "Manganese\n Vitamin C\n Antioxidants",
         link: "https://www.medicalnewstoday.com/articles/274620.php",
@@ -174,6 +191,7 @@ let Ingredients = () => {
         descripColor: "#FF918D"
       },
       {
+        uid: "fruit18",
         name: "Persimmon",
         description: "Best Source of Fiber\n Vitamin C\n Skin Health",
         link:
@@ -186,6 +204,7 @@ let Ingredients = () => {
     ],
     [
       {
+        uid: "fruit19",
         name: "Pineapple",
         description: "Vitamin C\n Boosts Immune System\n Antioxidents",
         link: "https://www.medicalnewstoday.com/articles/276903.php",
@@ -195,6 +214,7 @@ let Ingredients = () => {
         descripColor: "#D5CD00"
       },
       {
+        uid: "fruit20",
         name: "Plum",
         description: "Best Source of Potassium\n Vitamin C\n Vitamin K",
         link: "https://www.webmd.com/food-recipes/benefits-plums#1",
@@ -204,6 +224,7 @@ let Ingredients = () => {
         descripColor: "#C72F87"
       },
       {
+        uid: "fruit21",
         name: "Pomegranate",
         description:
           "Best Source of Fiber \n Vitamin C\n Best Source of Potassium",
@@ -214,6 +235,7 @@ let Ingredients = () => {
         descripColor: "#CA252A"
       },
       {
+        uid: "fruit22",
         name: "Raspberry",
         description:
           "Blood Sugar Regulation\n Antioxidents\n Best Source of Potassium",
@@ -224,6 +246,7 @@ let Ingredients = () => {
         descripColor: "#DE315F"
       },
       {
+        uid: "fruit23",
         name: "Spinach",
         description: "Anti-Cancer Benefits\n Manganese\n Vitamin E",
         link: "https://www.medicalnewstoday.com/articles/270609.php",
@@ -233,6 +256,7 @@ let Ingredients = () => {
         descripColor: "#84C966"
       },
       {
+        uid: "fruit24",
         name: "Strawberry",
         description:
           "Cardiovascular Benefits\n Regulates Blood Sugar\n Anti-Cancer Benefits",
@@ -243,6 +267,7 @@ let Ingredients = () => {
         descripColor: "#E93737"
       },
       {
+        uid: "fruit25",
         name: "Watermelon",
         description: "Anti-Inflammatory\n Antioxidants\n Regulates Blood Flow",
         link: "https://www.medicalnewstoday.com/articles/266886.php",
@@ -289,6 +314,7 @@ let Ingredients = () => {
       color={fruit.color}
       textColor={fruit.textColor}
       descripColor={fruit.descripColor}
+      uid={fruit.uid}
     />
   ));
   // let newItems = items[0].data.map(item => {
@@ -302,9 +328,7 @@ let Ingredients = () => {
         style={{ backgroundColor: "#2e7d39" }}
       />
       <br />
-      <ul>
-        {newFruits}
-      </ul>
+     
       <Pagination
         total={total}
         limit={limit}
@@ -383,6 +407,9 @@ let Ingredients = () => {
           </div>
         )}
       </Pagination>
+      <ul>
+        {newFruits}
+      </ul>
 
       <h1>This is Ingredients</h1>
     </>
@@ -394,17 +421,18 @@ export default Ingredients;
 let ListCardLeft = props => {
   console.log(props)
   return (
-    <li>
-      <div className="row" id={props.name}>
-        <div className="col-sm-2">
+    <li className="fruitList">
+      <div className="row fruitRow" id={props.name}>
+        <div className="col-sm-2 mx-auto">
           <img src={props.img} alt={props.name} style={{border: props.color}} className="fruitsCollection" id={props.fruitName}/>
         </div>
         <div className="col-sm-2 fruitsText align-self-center" style={{color: props.textColor}}>{props.name}</div>
-        <div className="col-sm-4 fruitsDescription text-left" style={{color: props.descripColor}}>{props.description}</div>
-        <div className="col-sm-4">
-          <a href={props.link}>Read More >></a>
+        <div className="col-sm-4 fruitsDescription text-left align-self-center" id={props.uid} style={{color: props.descripColor}}>{props.description}</div>
+        <div className="col-sm-4 align-self-end">
+          <a href={props.link} id="readMore">Read More >></a>
         </div>
       </div>
+      <hr />
     </li>
   );
 };
