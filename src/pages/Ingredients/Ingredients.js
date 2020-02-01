@@ -15,7 +15,9 @@ let Ingredients = () => {
           "Antioxidant\n Cardiovascular Benefits\n Blood Sugar Regulation",
         link: "https://www.medicalnewstoday.com/articles/267290.php#benefits",
         image: "apple.jpg",
-        color: "#BA110B 5px solid"
+        color: "#BA110B 5px solid",
+        textColor: "#BA110B",
+        descripColor: "#E0635E"
       },
       {
         name: "Avocado",
@@ -23,53 +25,76 @@ let Ingredients = () => {
           "Anti-Inflammatory\n Promote Heart Healthy\n Anti-Cancer Benefits",
         link: "https://www.medicalnewstoday.com/articles/318620.php#nutrition",
         image: "avocado.jpg",
-        color: "#3A813A 5x solid"
+        color: "#3A813A 5px solid",
+        textColor: "#3A813A",
+        descripColor: "#79B579"
       },
       {
         name: "Banana",
         description:
           "Protect Eyesight\n Prevent High Blood Pressure\n Best Source of Potassium",
         link: "https://www.medicalnewstoday.com/articles/271157.php#nutrition",
-        image: "banana.jpg"
+        image: "banana.jpg",
+        color: "#F6DD38 5px solid",
+        textColor: "#F6DD38",
+        descripColor: "#FFBE53"
       },
       {
         name: "Beets",
         description: "Antioxidants\n Detoxification\n Anti-Inflammatory",
         link: "https://www.medicalnewstoday.com/articles/277432.php",
-        image: "beet.jpg"
+        image: "beet.jpg",
+        color: "#81272A 5px solid",
+        textColor: "#81272A",
+        descripColor: "#C04E52"
       },
       {
         name: "Blackberry",
         description: "Vitamin E\n Antioxidants\n Vitamin C",
         link:
           "https://www.healthline.com/nutrition/11-reasons-to-eat-berries#section1",
-        image: "blackberry.jpg"
+        image: "blackberry.jpg",
+        color: "#000000 5px solid",
+        textColor: "#000000",
+        descripColor: "#6C6C6C"
       },
       {
         name: "Blueberry",
         description:
           "Cardiovascular Benefits\n Anti-Cancer Benefits\n Supports Vision Health",
         link: "https://www.medicalnewstoday.com/articles/287710.php#benefits",
-        image: "blueberry.jpg"
+        image: "blueberry.jpg",
+        color: "#67749E 5px solid",
+        textColor: "#67749E",
+        descripColor: "#8A9ACB"
       },
       {
         name: "Cantaloupe",
         description: "Anti-Inflammatory\n Antioxidants\n Vitamin A",
         link: "https://www.medicalnewstoday.com/articles/279176.php",
-        image: "cantaloupe.jpg"
+        image: "cantaloupe.jpg",
+        color: "#FEB151 5px solid",
+        textColor: "#FEB151",
+        descripColor: "#F0BE80"
       },
       {
         name: "Carrot",
         description: "Vision Health\n Antioxidants\n Anti-Cancer Benefits",
         link: "https://www.medicalnewstoday.com/articles/270191.php",
-        image: "carrot.jpg"
+        image: "carrot.jpg",
+        color: "#F99349 5px solid",
+        textColor: "#F99349",
+        descripColor: "#FFA563"
       },
       {
         name: "Celery",
         description:
           "Anti-Inflammatory\n Digestive Support\n Cardiovascular Support",
         link: "https://www.medicalnewstoday.com/articles/270678.php#benefits",
-        image:"celery.jpg"
+        image:"celery.jpg",
+        color: "#99BF1E 5px solid",
+        textColor: "#99BF1E",
+        descripColor: "#AECF45"
       }
     ],
     [
@@ -77,97 +102,161 @@ let Ingredients = () => {
         name: "Cucumber",
         description: "Manganese\n Vitamin C\n Antioxidants",
         link: "https://www.medicalnewstoday.com/articles/283006.php",
+        image:"cucumber.jpg",
+        color: "#7AB36B 5px solid",
+        textColor: "#99BF1E",
+        descripColor: "#91BA86"
       },
       {
         name: "Grape",
         description:
           "Antioxidants\n Cardiovascular Benefits\n Anti-Cancer Benefits",
-        link: "https://www.medicalnewstoday.com/articles/271156.php"
+        link: "https://www.medicalnewstoday.com/articles/271156.php",
+        image:"grapes.png",
+        color: "#8D0086 5px solid",
+        textColor: "#99BF1E",
+        descripColor: "#D073CC"
       },
       {
         name: "Honeydew",
         description: "Vitamin B-6\n Vitamin C\n Best Sources of Potassium",
-        link: "https://www.medicalnewstoday.com/articles/271156.php"
+        link: "https://www.medicalnewstoday.com/articles/271156.php",
+        image:"honeydew.jpg",
+        color: "#95CD8E 5px solid",
+        textColor: "#99BF1E",
+        descripColor: "#99D292"
       },
       {
         name: "Kale",
         description:
           "Antioxidants\n Digestive Support\n Cardiovascular Benefits",
-        link: "https://www.medicalnewstoday.com/articles/270435.php"
+        link: "https://www.medicalnewstoday.com/articles/270435.php",
+        image:"kale.jpg",
+        color: "#404C35 5px solid",
+        textColor: "#99BF1E",
+        descripColor: "#90AE75"
       },
       {
         name: "Mango",
         description: "Digestive Support\n Boosts Immune System\n Vision Health",
-        link: "https://www.medicalnewstoday.com/articles/275921.php"
+        link: "https://www.medicalnewstoday.com/articles/275921.php",
+        image:"mango.jpg",
+        color: "#F9B700 5px solid",
+        textColor: "#99BF1E",
+        descripColor: "#FFC421"
       },
       {
         name: "Orange",
         description:
           "Cardiovascular Benefits\n Anti-Cancer Benefits\n Supports Vision Health",
-        link: "https://www.medicalnewstoday.com/articles/272782.php"
+        link: "https://www.medicalnewstoday.com/articles/272782.php",
+        image:"orange.jpg",
+        color: "#FF8116 5px solid",
+        textColor: "#FF8116",
+        descripColor: "#FF9E4B"
       },
       {
         name: "Papaya",
         description: "Digestive Suppoprt\n Anti-Cancer Benefits\n Vitamin C",
-        link: "https://www.medicalnewstoday.com/articles/275517.php"
+        link: "https://www.medicalnewstoday.com/articles/275517.php",
+        image:"papaya.jpg",
+        color: "#F57005 5px solid",
+        textColor: "#F57005",
+        descripColor: "#F57610"
       },
       {
         name: "Peach",
         description: "Manganese\n Vitamin C\n Antioxidants",
-        link: "https://www.medicalnewstoday.com/articles/274620.php"
+        link: "https://www.medicalnewstoday.com/articles/274620.php",
+        image:"peach.jpg",
+        color: "#F3625D 5px solid",
+        textColor: "#F3625D",
+        descripColor: "#FF918D"
       },
       {
         name: "Persimmon",
         description: "Best Source of Fiber\n Vitamin C\n Skin Health",
         link:
-          "https://www.healthline.com/nutrition/persimmon-nutrition-benefits"
+          "https://www.healthline.com/nutrition/persimmon-nutrition-benefits",
+          image:"persimmon.jpg",
+          color: "#FF7A12 5px solid",
+          textColor: "#FF7A12",
+          descripColor: "#FF9C4F"
       }
     ],
     [
       {
         name: "Pineapple",
         description: "Vitamin C\n Boosts Immune System\n Antioxidents",
-        link: "https://www.medicalnewstoday.com/articles/276903.php"
+        link: "https://www.medicalnewstoday.com/articles/276903.php",
+        image:"pineapple.jpg",
+        color: "#EAE100 5px solid",
+        textColor: "#EAE100",
+        descripColor: "#D5CD00"
       },
       {
         name: "Plum",
         description: "Best Source of Potassium\n Vitamin C\n Vitamin K",
-        link: "https://www.webmd.com/food-recipes/benefits-plums#1"
+        link: "https://www.webmd.com/food-recipes/benefits-plums#1",
+        image:"plums.jpg",
+        color: "#871D5A 5px solid",
+        textColor: "#871D5A",
+        descripColor: "#C72F87"
       },
       {
         name: "Pomegranate",
         description:
           "Best Source of Fiber \n Vitamin C\n Best Source of Potassium",
-        link: "https://www.medicalnewstoday.com/articles/318385.php"
+        link: "https://www.medicalnewstoday.com/articles/318385.php",
+        image:"pomergranates.jpg",
+        color: "#CA252A 5px solid",
+        textColor: "#CA252A",
+        descripColor: "#CA252A"
       },
       {
         name: "Raspberry",
         description:
           "Blood Sugar Regulation\n Antioxidents\n Best Source of Potassium",
-        link: "https://www.medicalnewstoday.com/articles/283018.php"
+        link: "https://www.medicalnewstoday.com/articles/283018.php",
+        image:"raspberries.jpg",
+        color: "#AD0633 5px solid",
+        textColor: "#AD0633",
+        descripColor: "#DE315F"
       },
       {
         name: "Spinach",
         description: "Anti-Cancer Benefits\n Manganese\n Vitamin E",
-        link: "https://www.medicalnewstoday.com/articles/270609.php"
+        link: "https://www.medicalnewstoday.com/articles/270609.php",
+        image:"spinach.jpg",
+        color: "#398517 5px solid",
+        textColor: "#398517",
+        descripColor: "#84C966"
       },
       {
         name: "Strawberry",
         description:
           "Cardiovascular Benefits\n Regulates Blood Sugar\n Anti-Cancer Benefits",
-        link: "https://www.medicalnewstoday.com/articles/271285.php"
+        link: "https://www.medicalnewstoday.com/articles/271285.php",
+        image:"strawberry.jpg",
+        color: "#DE0201 5px solid",
+        textColor: "#DE0201",
+        descripColor: "#E93737"
       },
       {
         name: "Watermelon",
         description: "Anti-Inflammatory\n Antioxidants\n Regulates Blood Flow",
-        link: "https://www.medicalnewstoday.com/articles/266886.php"
+        link: "https://www.medicalnewstoday.com/articles/266886.php",
+        image:"watermelon.jpg",
+        color: "#EA4934 5px solid",
+        textColor: "#EA4934",
+        descripColor: "#EA4934"
       }
     ]
   ];
   const length = fruits.length;
   // console.log(fruits.length);
   const limit = Math.ceil(9);
-  // const limit = 9
+  // const limit = 9  
   // const pageCount = length / limit;
   const pageCount = 3;
   const total = length * limit;
@@ -198,6 +287,8 @@ let Ingredients = () => {
       name={fruit.name}
       img={require("../../assets/images/" + fruit.image)}
       color={fruit.color}
+      textColor={fruit.textColor}
+      descripColor={fruit.descripColor}
     />
   ));
   // let newItems = items[0].data.map(item => {
@@ -301,14 +392,15 @@ let Ingredients = () => {
 export default Ingredients;
 
 let ListCardLeft = props => {
+  console.log(props)
   return (
     <li>
       <div className="row" id={props.name}>
         <div className="col-sm-2">
           <img src={props.img} alt={props.name} style={{border: props.color}} className="fruitsCollection" id={props.fruitName}/>
         </div>
-        <div className="col-sm-2">{props.name}</div>
-        <div className="col-sm-4">{props.description}</div>
+        <div className="col-sm-2 fruitsText align-self-center" style={{color: props.textColor}}>{props.name}</div>
+        <div className="col-sm-4 fruitsDescription text-left" style={{color: props.descripColor}}>{props.description}</div>
         <div className="col-sm-4">
           <a href={props.link}>Read More >></a>
         </div>

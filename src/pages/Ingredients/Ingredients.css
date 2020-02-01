@@ -1,32 +1,36 @@
 .page-link {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .pagination-lg .page-link {
-    padding: .75rem 1.5rem;
-    font-size: 1.25rem;
-    line-height: 1.5;
-    background: #2e7d39;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  background: #2e7d39;
 }
 
 #page-numbers {
-    list-style: none;
-    display: flex;
-  }
-  
-#page-numbers > li {
-    margin-right: 0.3em;
-    color: blue;
-    user-select: none;
-    cursor: pointer;
-  }
+  list-style: none;
+  display: flex;
+}
 
-  .fruitsCollection {
-    height: 176px;
-    width: 176px;
-    border-radius: 100%;
-    border: tomato 5px solid ;
-  }
+#page-numbers > li {
+  margin-right: 0.3em;
+  color: blue;
+  user-select: none;
+  cursor: pointer;
+}
+
+.fruitsCollection {
+  height: 176px;
+  width: 176px;
+  border-radius: 100%;
+  border: tomato 5px solid;
+}
+
+ul {
+  list-style-type: none;
+}
 
 /* .fruitsList .fruitsRow:nth-child(odd) {
   flex-direction: row-reverse;
@@ -42,6 +46,7 @@
 
 #Avocado {
   flex-direction: row-reverse;
+  text-align: right;
 }
 
 #Beets {
@@ -54,4 +59,36 @@
 
 #Carrot {
   flex-direction: row-reverse;
+}
+
+#Grape {
+  flex-direction: row-reverse;
+}
+#Kale {
+  flex-direction: row-reverse;
+}
+#Orange {
+  flex-direction: row-reverse;
+}
+#Peach {
+  flex-direction: row-reverse;
+}
+#Plum {
+  flex-direction: row-reverse;
+}
+#Raspberry {
+  flex-direction: row-reverse;
+}
+#Strawberry {
+  flex-direction: row-reverse;
+}
+
+.fruitsText {
+  font-family: "Playlist_Script";
+  font-size: 75px;
+}
+
+.fruitsDescription {
+  white-space: pre-line;
+  font-family:  "Poppins Regular", sans-serif;
 }
