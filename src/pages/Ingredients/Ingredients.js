@@ -426,13 +426,13 @@ let ListCardLeft = props => {
         <div className="col-sm-2 mx-auto">
           <img src={props.img} alt={props.name} style={{border: props.color}} className="fruitsCollection" id={props.fruitName}/>
         </div>
-        <div className="col-sm-2 fruitsText align-self-center" style={{color: props.textColor}}>{props.name}</div>
-        <div className="col-sm-4 fruitsDescription text-left align-self-center" id={props.uid} style={{color: props.descripColor}}>{props.description}</div>
-        <div className="col-sm-4 align-self-end">
-          <a href={props.link} id="readMore">Read More >></a>
+        <div className="col-sm-2 fruitsText align-self-center colBottom" id={props.uid} style={{color: props.textColor}}>{props.name}</div>
+        <div className="col-sm-4 fruitsDescription text-left align-self-center colBottom2" id={props.uid} style={{color: props.descripColor}}>{props.description}</div>
+        <div className="col-sm-4 align-self-end text-left colBottom3">
+          <a className="colBottom4" href={props.link} id="readMore">Read More >></a>
         </div>
       </div>
-      <hr />
+      {/* <hr /> */}
     </li>
   );
 };

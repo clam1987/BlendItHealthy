@@ -96,6 +96,33 @@ ul {
 #readMore {
   font-family: "Poppins Medium Italic";
   color: black;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  border-bottom: .35px solid black;
+  padding-bottom: 3px;
+  padding-left: 0px;
+  margin-left: -15px; 
+  padding-right: 75px;
+}
+
+.colBottom2 {
+  border-bottom: .35px solid black;
+  height: 176px;
+  padding-top: 35px;
+}
+
+.colBottom {
+  border-bottom: .35px solid black;
+
+}
+
+/* .colBottom3 {
+  border-bottom: .35px solid black;
+} */
+
+.colBottom4 {
+ 
 }
 
 /* hr {
@@ -105,3 +132,4 @@ ul {
 /* .fruitList {
   border-bottom: 1px solid black;
 } */
+
