@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import "../Testimonials/Testimonials.css";
-import TestButton from "../../components/TestButton/TestButton";
+import { CSSTransition } from "react-transition-group"
 
 let Testimonials = () => {
+  const [inProp, setInProp] = useState(false);
   return (
     <>
       <Carousel />
@@ -13,31 +14,59 @@ let Testimonials = () => {
 
 export default Testimonials;
 
-let Carousel = () => {
+let Carousel = props => {
+  const [run, setRun] = useState({
+    items: props.items,
+    active: props.active,
+    direction: ""
+  })
+
+let moveLeft = () => {
+  let newActive = run.active;
+  newActive--;
+  setRun({...run, active: newActive < 0 ? run.items.length - 1 : newActive, direction: "left"})
+}
+
+let moveRight = () => {
+  let newActive = run.active
+  setRun({...run, active: (newActive + 1) % run.items.length, direction: "right"})
+}
+
+let generateItems = () => {
+  let items = [];
+  let level;
+  console.log(run.active);
+  for (let i = run.active - 2; i < run.active + 3; i++) {
+    let index = i
+    if (i < 0) {
+      index = i % run.items.length + i;
+    } else if (i >= run.items.length) {
+      index = i % run.items.length
+    }
+    level = run.active - i;
+    items.push(<Item key={index} id={run.items[i]} level={level} />)
+  }
+  return items
+}
+
   return (
-    <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
-  <div className="carousel-inner">
-    <div className="carousel-item active">
-      <img className="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(45).jpg"
-        alt="First slide" />
+    <div id="carousel" className="noselect">
+      <div className="arrow arrow-left" onClick={moveLeft}><i className="fi-arrow-left"></i></div>
+      <CSSTransition transitionName={run.direction}>
+        {generateItems()}
+      </CSSTransition>
+      <div className="arrow arrow-right" onClick={moveRight}><i className="fi-arrow-right"></i></div>
     </div>
-    <div className="carousel-item">
-      <img className="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(46).jpg"
-        alt="Second slide" />
+  )
+}
+
+let Item = (props) => {
+  const [curLVL, setCurLVL] = useState({level: props.level});
+  const className= `item level ${curLVL.level}`
+
+  return (
+    <div className={className}>
+      {props.id}
     </div>
-    <div className="carousel-item">
-      <img className="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(47).jpg"
-        alt="Third slide" />
-    </div>
-  </div>
-  <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span className="sr-only">Previous</span>
-  </a>
-  <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-    <span className="sr-only">Next</span>
-  </a>
-</div>
-  );
-};
+  )
+}
