@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "../Ingredients/Ingredients.css";
 import BannerReuseable from "../../components/BannerReusable/BannerReuseable";
 import Pagination from "react-paginating";
+import ListCardLeft from "../../components/ListCardLeft/ListCardLeft"
 
 let Ingredients = () => {
   const [page, setPage] = useState({
@@ -535,24 +536,24 @@ let Ingredients = () => {
 
 export default Ingredients;
 
-let ListCardLeft = props => {
-  console.log(props)
-  return (
-    <li className="fruitList">
-      <div className="row fruitRow" id={props.name}>
-        <div className="col-sm-2 mx-0">
-          <img src={props.img} alt={props.name} style={{border: props.color}} className="fruitsCollection"/>
-        </div>
-        <div className="col-sm-3 fruitsText align-self-center colBottom" id={props.id2} style={{color: props.textColor}}>{props.name}</div>
-        <div className="col-sm-3 fruitsDescription text-left align-self-center colBottom2" id={props.desc} style={{color: props.descripColor}}>{props.description}</div>
-        <div className="col-sm-4 px-0 align-self-end text-left colBottom3">
-          <a className="colBottom4" href={props.link} id={props.uid}>Read More >></a>
-        </div>
-      </div>
-      {/* <hr /> */}
-    </li>
-  );
-};
+// let ListCardLeft = props => {
+//   console.log(props)
+//   return (
+//     <li className="fruitList">
+//       <div className="row fruitRow" id={props.name}>
+//         <div className="col-sm-2 mx-0">
+//           <img src={props.img} alt={props.name} style={{border: props.color}} className="fruitsCollection"/>
+//         </div>
+//         <div className="col-sm-3 fruitsText align-self-center colBottom" id={props.id2} style={{color: props.textColor}}>{props.name}</div>
+//         <div className="col-sm-3 fruitsDescription text-left align-self-center colBottom2" id={props.desc} style={{color: props.descripColor}}>{props.description}</div>
+//         <div className="col-sm-4 px-0 align-self-end text-left colBottom3">
+//           <a className="colBottom4" href={props.link} id={props.uid}>Read More >></a>
+//         </div>
+//       </div>
+//       {/* <hr /> */}
+//     </li>
+//   );
+// };
 
 // <Pagination
 //     total={total}
