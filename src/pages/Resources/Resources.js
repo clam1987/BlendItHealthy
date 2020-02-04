@@ -26,7 +26,11 @@ let Resources = () => {
           "Are natural vitamins better than synthetic vitamins?"
         ]}
         cardImg={["green_Juice.jpg", "honey.jpg", "pills.png"]}
-        links={["https://www.foodmatters.com/articles-1/juicing-vs-blending-which-one-is-better","https://www.benefits-of-honey.com/honey-vs-sugar.html","https://www.health.harvard.edu/newsweek/Listing_of_vitamins.htm"]}
+        links={[
+          "https://www.foodmatters.com/articles-1/juicing-vs-blending-which-one-is-better",
+          "https://www.benefits-of-honey.com/honey-vs-sugar.html",
+          "https://www.health.harvard.edu/newsweek/Listing_of_vitamins.htm"
+        ]}
       />
       <Button text="SEE MORE" />
     </>
