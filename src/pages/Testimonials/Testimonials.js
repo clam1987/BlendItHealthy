@@ -1,15 +1,17 @@
 import React, { useState, useEffect } from "react";
 import "../Testimonials/Testimonials.css";
 import { CSSTransition, TransitionGroup } from "react-transition-group"
-import { Slide } from "react-slideshow-image";
+import { Zoom } from "react-slideshow-image";
 
 
 let Testimonials = () => {
-
+  
   return (
     <>
 {/* <Carousel items={items} active={0}/> */}
 <Slideshow />
+<h4>Want your story to be featured?</h4>
+<ShareButton />
     <h1>Hello World</h1>
     </>
   );
@@ -18,64 +20,77 @@ let Testimonials = () => {
 export default Testimonials;
 
 const Slideshow = () => {
-  const slides = ['https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/paris.jpg', 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/singapore.jpg', 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/prague.jpg']
-  const slidess = [
+  const slides = [
     {
-      city: 'Paris',
-      country: 'France',
-      img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/paris.jpg',
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia ratione incidunt labore quod, alias odit similique quo expedita nihil magni quam eveniet magnam repellendus sequi officiis. Eum saepe aliquid ab?",
     },
     {
-      city: 'Singapore',
-      img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/singapore.jpg',
-    },
-    {
-      city: 'Prague',
-      country: 'Czech Republic',
-      img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/prague.jpg',
-    },
-    {
-      city: 'Amsterdam',
-      country: 'Netherlands',
-      img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/amsterdam.jpg',
-    },
-    {
-      city: 'Moscow',
-      country: 'Russia',
-      img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/moscow.jpg',
-    },
-  ];
-
-  const properties = {
+      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia ratione incidunt labore quod, alias odit similique quo expedita nihil magni quam eveniet magnam repellendus sequi officiis. Eum saepe aliquid ab?",
+      },
+      {
+        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia ratione incidunt labore quod, alias odit similique quo expedita nihil magni quam eveniet magnam repellendus sequi officiis. Eum saepe aliquid ab?",
+        }
+]
+  
+  const zoomOutProperties = {
     duration: 5000,
     transitionDuration: 500,
     infinite: true,
     indicators: true,
-    arrows: true,
-    onChange: (oldIndex, newIndex) => {
-      console.log(`slide transition from ${oldIndex} to ${newIndex}`);
-    }
+    scale: 0.4,
+    arrows: true
   }
+  let newWords = slides.map((each, index) => {return <WordsStuff key={index} each={each.content}/>} )
   return (
     <div className="slide-container">
-       <Slide {...properties}>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slides[0]})`}}>
-              <span>Slide 1</span>
-            </div>
-          </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slides[1]})`}}>
-              <span>Slide 2</span>
-            </div>
-          </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slides[2]})`}}>
-              <span>Slide 3</span>
-            </div>
-          </div>
-        </Slide>
+      <Zoom {...zoomOutProperties}>
+        {newWords}
+        
+      </Zoom>
     </div>
+  )
+}
+
+let WordsStuff = props => {
+  return (
+    <p style={{width: "100%"}}>{props.each}</p>
+  )
+}
+
+let ShareButton = props => {
+  let handleClick = () => {
+    return <ShareModal />
+  }
+  return (
+    <>
+    <button className="btn" id="share" type="button" data-toggle="modal" data-target="#ModalCenter" onClick={handleClick}>Share your story</button>
+    <ShareModal />
+    </>
+  )
+}
+
+let ShareModal = props => {
+  return (
+<div className="modal fade" id="ModalCenter" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered" role="document">
+    <div className="modal-content">
+      <div className="modal-header">
+        <h5 className="modal-title" id="ModalCenterTitle">Share Your Story with us!</h5>
+        <form className="form"></form>
+        <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div className="modal-body">
+        ...
+      </div>
+      <div className="modal-footer">
+        <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" className="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>    
   )
 }
 
@@ -116,11 +131,11 @@ const Slideshow = () => {
 
 //   return (
 //     <div id="carousel" className="noselect">
-//       <div className="arrow arrow-left" onClick={moveLeft}><i class="fas fa-arrow-circle-left"></i></div>
+//       <div className="arrow arrow-left" onClick={moveLeft}><i className="fas fa-arrow-circle-left"></i></div>
 //       <CSSTransition transitionName={run.direction}>
 //         {generateItems}
 //       </CSSTransition>
-//       <div className="arrow arrow-right" onClick={moveRight}><i class="fas fa-arrow-alt-circle-right"></i></div>
+//       <div className="arrow arrow-right" onClick={moveRight}><i className="fas fa-arrow-alt-circle-right"></i></div>
 //     </div>
 //   )
 // }
