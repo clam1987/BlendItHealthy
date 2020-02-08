@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "../Button/Button.css";
 import CardList2 from "../CardList2/CardList2"
 

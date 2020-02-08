@@ -1,6 +1,6 @@
 import React from "react";
 import "../MenuImg/MenuImg.css";
-import redMenu from "../../assets/images/red_menu.png"
+import redMenu from "../../assets/images/red_menu.png";
 
 let MenuImg = () => {
   return (

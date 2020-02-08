@@ -1,6 +1,5 @@
 import React from "react";
 import "../AboutBanner2/Banner2.css";
-import storeFront from "../../assets/images/store_front.png";
 
 let Banner2 = props => {
   return (

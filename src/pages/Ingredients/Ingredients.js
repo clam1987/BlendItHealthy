@@ -1,10 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "../Ingredients/Ingredients.css";
 import BannerReuseable from "../../components/BannerReusable/BannerReuseable";
 import Pagination from "react-paginating";
 import ListCardLeft from "../../components/ListCardLeft/ListCardLeft";
 import fruits from "../../assets/Ingredients.json";
-console.log(fruits);
 
 let Ingredients = () => {
   const [page, setPage] = useState({

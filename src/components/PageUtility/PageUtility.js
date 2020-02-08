@@ -1,7 +1,16 @@
 import React from "react";
 import "../PageUtility/PageUtility.css";
 
+
+
 let PageUtility = () => {
+  
+  let grabHref = () => {
+    let menuImgEl = document.getElementById("menuImg")
+    let menuImg = menuImgEl.src
+    let saveEl = document.getElementById("save-button");
+    saveEl.href = menuImg;
+  }
   return (
     <div className="row" id="pageUtility">
       <div className="col-sm-9"></div>
@@ -18,7 +27,7 @@ let PageUtility = () => {
             </a>
           </li>
           <li className="list-inline-item">
-            <a className="btn-floating btn-tw mx-1">
+            <a download="menu.jpg" className="btn-floating btn-tw mx-1" href="#" onClick={grabHref} title="Menu" id="save-button">
               <i className="fas fa-download"> </i>
             </a>
           </li>
