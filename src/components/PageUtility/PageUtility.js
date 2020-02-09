@@ -1,5 +1,6 @@
 import React from "react";
 import "../PageUtility/PageUtility.css";
+import ReactToPrint from "react-to-print";
 
 
 
@@ -38,3 +39,13 @@ let PageUtility = () => {
 };
 
 export default PageUtility;
+
+let PrintButton = props => {
+  return (
+    <>
+    <ReactToPrint trigger={() => {    <a className="btn-floating btn-gplus mx-1" href="#">
+              <i className="fas fa-print"> </i>
+            </a>}} content={() => {}} />
+    </>
+  )
+}
