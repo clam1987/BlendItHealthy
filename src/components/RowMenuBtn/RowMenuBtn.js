@@ -178,7 +178,7 @@ let RowMenuBtn = () => {
     }
   };
   return (
-    <div className="row" id="rowMenuBtn">
+    <div className="row no-gutters" id="rowMenuBtn">
       <div className="col-sm-1"></div>
       <div className="col-sm-2">
         <button

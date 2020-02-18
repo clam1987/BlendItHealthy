@@ -18,7 +18,7 @@ let Programs = () => {
       <ProgramsImage
         text="message"
         progImg={TenDay}
-        style={{ marginTop: "-1em", marginBottom: "2.5em" }}
+        style={{ marginTop: "-3.2em", marginBottom: "2.5em" }}
       />
     </>
   );

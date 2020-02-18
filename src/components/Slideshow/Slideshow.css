@@ -57,3 +57,14 @@
   align-items: center;
   justify-content: center;
 }
+
+
+@media screen and (max-width: 600px) {
+  .slide-container {
+    width: 280px;
+    height: 240px;
+    margin: auto;
+    background-color: #2e7d39;
+    border-radius: 4%;
+  }
+}

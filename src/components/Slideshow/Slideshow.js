@@ -2,22 +2,9 @@ import React from "react";
 import "../Slideshow/Slideshow.css";
 import { Zoom } from "react-slideshow-image";
 import WordsStuff from "../../components/WordsStuff/WordsStuff";
+import slides from "../../assets/slides.json"
 
 const Slideshow = () => {
-  const slides = [
-    {
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia ratione incidunt labore quod, alias odit similique quo expedita nihil magni quam eveniet magnam repellendus sequi officiis. Eum saepe aliquid ab?"
-    },
-    {
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia ratione incidunt labore quod, alias odit similique quo expedita nihil magni quam eveniet magnam repellendus sequi officiis. Eum saepe aliquid ab?"
-    },
-    {
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia ratione incidunt labore quod, alias odit similique quo expedita nihil magni quam eveniet magnam repellendus sequi officiis. Eum saepe aliquid ab?"
-    }
-  ];
 
   const zoomOutProperties = {
     duration: 5000,

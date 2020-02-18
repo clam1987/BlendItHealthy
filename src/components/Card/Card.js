@@ -2,7 +2,6 @@ import React from "react";
 import "../Card/Card.css";
 
 let Card = props => {
-  // console.log(props)
   return (
     <li>
       <div className="card mb-3" style={{ maxWidth: 720 }}>

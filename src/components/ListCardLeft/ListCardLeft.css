@@ -482,3 +482,13 @@
 #desc25 {
   padding-left: 55px;
 }
+
+
+@media screen and (max-width: 600px) {
+    .fruitsCollection {
+  height: 176px;
+  width: 176px;
+  border-radius: 100%;
+  border: tomato 5px solid;
+}
+}
