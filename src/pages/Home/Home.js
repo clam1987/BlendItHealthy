@@ -7,6 +7,9 @@ import Wrapper from "../../components/Wrapper/Wrapper";
 import ExtraImages from "../../components/ExtraImages/ExtraImages";
 import HomePage from "../../assets/HomePage.json";
 
+
+// Assets and text and stuff belongs to HomePage.json
+
 let Home = () => {
   const BottomImage = HomePage.map(botimg => {
     return (

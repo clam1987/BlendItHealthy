@@ -1,6 +1,9 @@
 import React from "react";
 import "../Banner/Banner.css";
 
+
+// Banner belongs to home page
+
 let Banner = props => {
   return (
     <div className="container-fluid px-0">

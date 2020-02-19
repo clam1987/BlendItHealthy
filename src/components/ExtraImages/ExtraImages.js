@@ -1,6 +1,9 @@
 import React from "react";
 import "../ExtraImages/ExtraImages.css";
 
+
+// ExtraImages belongs to Home Page
+
 let ExtraImages = props => {
   return (
     <div className="container-fluid">

@@ -1,6 +1,8 @@
 import React from "react";
 import "../Image/Image.css";
 
+// Image belongs to home Page
+
 let Image = props => {
   return (
     <div className="row row-cols-1" id="homeImgRow">

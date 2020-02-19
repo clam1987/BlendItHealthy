@@ -11,6 +11,9 @@ import Programs from "./pages/Programs/Programs";
 import Testimonials from "../src/pages/Testimonials/Testimonials";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
+
+// Most of the data is held in assets. Other's are coded into the components. Anything that has an import from json files contains data that can be changed.
+
 function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
