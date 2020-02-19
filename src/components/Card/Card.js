@@ -12,7 +12,9 @@ let Card = props => {
               <p className="card-text">{props.p1}</p>
               <a href={props.links}>
                 <p className="card-text text-right">
-                  <strong><u>Read Article >>></u></strong>
+                  <strong>
+                    <u>Read Article >>></u>
+                  </strong>
                 </p>
               </a>
             </div>

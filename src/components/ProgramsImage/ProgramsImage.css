@@ -1,15 +1,15 @@
 #progsImg {
-    max-width: 960px;
+  max-width: 960px;
 }
 
 #progsRow {
-    margin-top: 1em;
-    margin-bottom: 2em;
+  margin-top: 1em;
+  margin-bottom: 2em;
 }
 
 @media only screen and (max-width: 768px) {
-    #progsImg {
-        max-width: 960px;
-        width: 100%;
-    }
+  #progsImg {
+    max-width: 960px;
+    width: 100%;
+  }
 }

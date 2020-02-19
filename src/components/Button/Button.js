@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../Button/Button.css";
-import CardList2 from "../CardList2/CardList2"
+import CardList2 from "../CardList2/CardList2";
 
 let Button = props => {
   let [hide, setHide] = useState({ isHidden: true });
@@ -27,10 +27,7 @@ let Button = props => {
         </button>
       ) : null}
       {isHidden === false ? (
-        <div
-          className="row justify-content-center"
-          id="rowHidden"
-        >
+        <div className="row justify-content-center" id="rowHidden">
           <CardList2
             title={[
               "CALIFORNIA AND FLORIDA AVOCADOS DIFFERENCE",

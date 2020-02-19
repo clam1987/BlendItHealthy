@@ -1,8 +1,7 @@
 #cardRow2 {
-    margin-top: 3em;
-    margin-bottom: -1em;
+  margin-top: 3em;
+  margin-bottom: -1em;
 }
 
 @media screen and (max-width: 600px) {
-    
-  }
+}

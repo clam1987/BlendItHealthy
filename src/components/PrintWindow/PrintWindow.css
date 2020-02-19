@@ -1,9 +1,9 @@
 #imgPrint {
-    display: none;
+  display: none;
 }
 
 @media print {
-    #imgPrint {
-        display: block;
-    }
+  #imgPrint {
+    display: block;
+  }
 }

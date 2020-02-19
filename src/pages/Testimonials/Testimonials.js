@@ -10,7 +10,6 @@ let Testimonials = () => {
       <TestBanner img={logo} name="logo" />
       <Slideshow />
       <h4 id="storyText">Want your story to be featured?</h4>
-      {/* <ShareButton /> */}
     </>
   );
 };

@@ -2,10 +2,9 @@ import React from "react";
 import "../Slideshow/Slideshow.css";
 import { Zoom } from "react-slideshow-image";
 import WordsStuff from "../../components/WordsStuff/WordsStuff";
-import slides from "../../assets/slides.json"
+import slides from "../../assets/slides.json";
 
 const Slideshow = () => {
-
   const zoomOutProperties = {
     duration: 5000,
     transitionDuration: 500,

@@ -133,7 +133,6 @@ let Ingredients = () => {
                     margin: "4px 2px",
                     cursor: "pointer",
                     borderRadius: "20%"
-                    // fontFamily: "Poppins",
                   }}
                 >
                   {page}

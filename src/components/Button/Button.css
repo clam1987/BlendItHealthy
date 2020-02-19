@@ -1,48 +1,47 @@
 #resourceBtn {
-    background-color: rgba(46,125,57,0.6);
-    max-width: 720px;
-    width: 100%;
-    height: auto;
-    padding: .675em;
-    font-family: "Poppins", sans-serif;
-    font-size: 3em;
+  background-color: rgba(46, 125, 57, 0.6);
+  max-width: 720px;
+  width: 100%;
+  height: auto;
+  padding: 0.675em;
+  font-family: "Poppins", sans-serif;
+  font-size: 3em;
 }
 
 #rowHidden {
-    width: 100%;
-    margin-bottom: 1em;
-    margin-top: -4em;
-    margin-left: .1em;
-
+  width: 100%;
+  margin-bottom: 1em;
+  margin-top: -4em;
+  margin-left: 0.1em;
 }
 @media screen and (max-width: 320px) {
-    #rowHidden {
-        width: 111%;
-        margin-top: 0em !important;
-        margin-left: -1.975em;
-    }
+  #rowHidden {
+    width: 111%;
+    margin-top: 0em !important;
+    margin-left: -1.975em;
+  }
 }
 
 @media screen and (max-width: 600px) and (min-width: 321px) {
-    #rowHidden {
-        width: 109.2%;
-        margin-top: 0em !important;
-        margin-left: -1.975em;
-    }
+  #rowHidden {
+    width: 109.2%;
+    margin-top: 0em !important;
+    margin-left: -1.975em;
+  }
 }
 
 @media screen and (max-width: 1023px) and (min-width: 600px) {
-    #rowHidden {
-        width: 105%;
-        margin-top: 0em !important;
-        margin-left: -1.975em;
-    }
+  #rowHidden {
+    width: 105%;
+    margin-top: 0em !important;
+    margin-left: -1.975em;
+  }
 }
 
 @media screen and (max-width: 1153px) and (min-width: 1024px) {
-    #rowHidden {
-        width: 105%;
-        margin-top: 0em !important;
-        margin-left: -2.5em;
-    }
+  #rowHidden {
+    width: 105%;
+    margin-top: 0em !important;
+    margin-left: -2.5em;
+  }
 }
